@@ -18,14 +18,18 @@ body{
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
+    /* width: 55px;
+    height: 55px; */
 }
 div{
-   
     transition: all 0.5s ease;
 }
-.first>div:hover {
-    padding: 5px;
-    outline: 2px solid brown;
+.first>div:hover img{
+    /* padding: 5px; */
+    /* outline: 2px solid brown; */
+    width: 60px;
+    height: 60px;
+
 } 
 .second>div:hover{
     padding: 5px;
@@ -61,6 +65,7 @@ p{
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
+    /* color: white; */
 }
 
 .third>div:nth-child(even){
@@ -75,7 +80,7 @@ p{
 }
 .fourth>div:nth-child(even){
     background-color: #F0D9B5;
-   width: 55px;
+     width: 55px;
     height: 55px;
 }
 .fourth>div:nth-child(odd){
