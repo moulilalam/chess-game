@@ -18,22 +18,26 @@ body{
     flex-wrap: wrap;
     justify-content:center ;
     align-items: center;
-    /* width: 55px;
-    height: 55px; */
+    width: 100%;
+}
+.first>div,.second>div,.last>div,.lastsecond>div,.fourth>div,.third>div{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div{
     transition: all 0.5s ease;
 }
 .first>div:hover img{
-    padding: 5px;
-    outline: 2px solid brown;
-    /* width: 60px;
-    height: 60px; */
+    width: 60px;
+    height: 60px;
 
 } 
-.second>div:hover{
-    padding: 5px;
-    outline: 2px solid brown;
+.second>div:hover img{
+    width: 60px;
+    height: 60px;
     
 } 
 p{
@@ -51,58 +55,18 @@ p{
 .second>div:nth-child(odd),.last>div:nth-child(odd){
     background-color:#B58863;
 }
-.last>div:hover{
-    padding: 5px;
-    outline: 2px solid brown;
+.last>div:hover img{
+    width: 60px;
+    height: 60px;
 } 
-.lastsecond>div:hover{
-    padding: 5px;
-    outline: 2px solid brown;
+.lastsecond>div:hover img{
+    width: 60px;
+    height: 60px;
     
 } 
-.third{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center ;
-    align-items: center;
-    /* color: white; */
-}
 
-.third>div:nth-child(even){
-    background-color:#B58863;
-   width: 55px;
-    height: 55px;
-}
-.third>div:nth-child(odd){
-     background-color: #F0D9B5;
-    width: 55px;
-    height: 55px;
-}
-.fourth>div:nth-child(even){
-    background-color: #F0D9B5;
-     width: 55px;
-    height: 55px;
-}
-.fourth>div:nth-child(odd){
-    background-color:#B58863;
-    width: 55px;
-    height: 55px;
-}
-.fourth{
-     display: flex;
-     flex-wrap: wrap;
-    justify-content:center ;
-    align-items: center;
-}
-.third>div:nth-child(even){
-    background-color:#B58863;
-}
-.third>div:nth-child(odd){
-    background-color: #F0D9B5;
-}
-img{
-    width: 55px;
-    height: 55px;
-    
-}
+
+
+
+
 
