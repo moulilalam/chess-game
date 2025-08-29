@@ -25,10 +25,10 @@ div{
     transition: all 0.5s ease;
 }
 .first>div:hover img{
-    /* padding: 5px; */
-    /* outline: 2px solid brown; */
-    width: 60px;
-    height: 60px;
+    padding: 5px;
+    outline: 2px solid brown;
+    /* width: 60px;
+    height: 60px; */
 
 } 
 .second>div:hover{
@@ -105,4 +105,3 @@ img{
     height: 55px;
     
 }
-
